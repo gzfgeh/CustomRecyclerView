@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomSwipeRefreshLayout">
+        <attr name="enable_top_progress_bar" format="boolean" />
+        <attr name="refresh_mode" format="enum" >
+            <enum name="swipe_mode" value="1" />
+            <enum name="pull_mode" value="2" />
+        </attr>
+        <attr name="time_out_return_to_top" format="integer" />
+        <attr name="time_out_refresh_complete" format="integer" />
+        <attr name="return_to_top_duration" format="integer" />
+        <attr name="return_to_header_duration" format="integer" />
+        <attr name="keep_refresh_head" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="superrecyclerview">
+        <attr name="layout_empty" format="reference" />
+        <attr name="layout_progress" format="reference" />
+        <attr name="layout_error" format="reference" />
+        <attr name="layout_login" format="reference"/>
+        <attr name="recyclerClipToPadding" format="boolean" />
+        <attr name="recyclerPadding" format="dimension" />
+        <attr name="recyclerPaddingTop" format="dimension" />
+        <attr name="recyclerPaddingBottom" format="dimension" />
+        <attr name="recyclerPaddingLeft" format="dimension" />
+        <attr name="recyclerPaddingRight" format="dimension" />
+        <attr name="scrollbarStyle">
+            <enum name="insideOverlay" value="0x0" />
+            <enum name="insideInset" value="0x01000000" />
+            <enum name="outsideOverlay" value="0x02000000" />
+            <enum name="outsideInset" value="0x03000000" />
+        </attr>
+    </declare-styleable>
+</resources>
